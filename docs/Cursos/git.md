@@ -11,4 +11,4 @@ E não paramos por aí! Uma vez que você tenha dominado o Git, vamos explorar o
 
 Finalmente, fecharemos a playlist com um mergulho emocionante na hospedagem de sites estáticos no GitHub Pages. Você aprenderá como configurar seu próprio site estático, utilizar o GitHub Pages para hospedá-lo gratuitamente e até mesmo personalizar seu domínio personalizado para uma presença online profissional.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=rEphQscu-RhfeD5x&amp;list=PLI8zu4XrMjAzva6GTrDPiWd_RwXZFzKj6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?si=rEphQscu-RhfeD5x&amp;list=PLI8zu4XrMjAzva6GTrDPiWd_RwXZFzKj6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

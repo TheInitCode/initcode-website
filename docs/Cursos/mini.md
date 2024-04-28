@@ -12,4 +12,4 @@ Vamos começar com o HTML, a espinha dorsal de qualquer página web. HTML, ou Hy
 
 Em seguida, vamos dar uma olhada no CSS, ou Cascading Style Sheets. O CSS é uma linguagem de estilo que nos permite controlar a aparência e o layout dos elementos HTML em uma página web. Com CSS, podemos alterar cores, fontes, tamanhos, espaçamento e muito mais, adicionando estilo e beleza às nossas páginas.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=YD_m-64tfPhiTLil&amp;list=PLI8zu4XrMjAycZUONwoJIhYy8NobXxsrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?si=YD_m-64tfPhiTLil&amp;list=PLI8zu4XrMjAycZUONwoJIhYy8NobXxsrC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

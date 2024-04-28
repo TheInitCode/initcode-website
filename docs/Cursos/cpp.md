@@ -9,4 +9,4 @@ Começaremos do zero, explicando os conceitos básicos de C++: como declarar var
 
 Além disso, exploraremos as estruturas de repetição, como o loop while e o loop for, que permitem que você execute um bloco de código várias vezes com base em uma condição específica. Você aprenderá a usar essas estruturas de repetição de forma eficaz para automatizar tarefas repetitivas e otimizar o desempenho de seus programas.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=w8IacHiT3RCUqYbh&amp;list=PLI8zu4XrMjAy3MBlM7qyPq6OTOA_iZ7tG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?si=w8IacHiT3RCUqYbh&amp;list=PLI8zu4XrMjAy3MBlM7qyPq6OTOA_iZ7tG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

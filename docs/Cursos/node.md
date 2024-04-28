@@ -9,4 +9,4 @@ Começaremos do zero, explicando os fundamentos do Node.js: o que é, como insta
 
 Exploraremos tópicos mais avançados, como manipulação de arquivos, manipulação de eventos, e o uso de módulos e pacotes npm para expandir as capacidades do seu aplicativo Node.js. Vamos construir aplicações práticas passo a passo, desde simples CRUDs até APIs RESTful completas, dando-lhe a confiança para construir seus próprios projetos do zero.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=zfO9UOs51tMxMneN&amp;list=PLI8zu4XrMjAxe5dGI2tiQ8MQAfdT4fGjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?si=zfO9UOs51tMxMneN&amp;list=PLI8zu4XrMjAxe5dGI2tiQ8MQAfdT4fGjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
