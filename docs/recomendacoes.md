@@ -3,6 +3,13 @@ sidebar_position: 2
 ---
 # Recomendações
 
+# Siga-nos nas redes sociais!
+
+[![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/channel/UCdHlZugvc3w3hfHBSTLTD5w?sub_confirmation=1)
+[![Facebook](https://img.icons8.com/color/48/000000/facebook.png)](https://www.facebook.com/people/Init-Code/61556939284040/)
+[![Instagram](https://img.icons8.com/fluent/48/000000/instagram-new.png)](https://www.instagram.com/init_code/)
+[![GitHub](https://img.icons8.com/material-rounded/48/ffffff/github.png)](https://github.com/initcodeexemplos)
+
 # Livros:
 
 7 Hábitos: https://amzn.to/49VjaxU
@@ -36,10 +43,3 @@ Mouse: https://amzn.to/4b91Oi5
 Teclado: https://amzn.to/44c2Do6
 
 Microfone: https://amzn.to/3xQnyRy
-
-# Siga-nos nas redes sociais!
-
-[![YouTube](https://img.icons8.com/color/48/000000/youtube-play.png)](https://www.youtube.com/channel/UCdHlZugvc3w3hfHBSTLTD5w?sub_confirmation=1)
-[![Facebook](https://img.icons8.com/color/48/000000/facebook.png)](https://www.facebook.com/people/Init-Code/61556939284040/)
-[![Instagram](https://img.icons8.com/fluent/48/000000/instagram-new.png)](https://www.instagram.com/init_code/)
-[![GitHub](https://img.icons8.com/material-rounded/48/ffffff/github.png)](https://github.com/initcodeexemplos)
