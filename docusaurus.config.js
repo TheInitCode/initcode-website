@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
   module.exports = {
     title: "Init Code",
     tagline: "Init Code",
-    url: "http://initcode.com.br",
-    baseUrl: "/",
+    url: "https://theinitcode.github.io/",
+    baseUrl: "/initcode-website/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
