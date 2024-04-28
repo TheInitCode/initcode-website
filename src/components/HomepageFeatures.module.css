@@ -1,0 +1,22 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.image{
+  width: 50rem;
+  height: 17rem;
+  object-fit: cover;
+}
