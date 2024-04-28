@@ -78,7 +78,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
         },
         colorMode: {
           defaultMode: "dark",
-          disableSwitch: false
+          disableSwitch: true
         },
       }),
   }

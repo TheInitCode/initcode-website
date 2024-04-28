@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Recomendações
 
-## Livros:
+# Livros:
 
 7 Hábitos: https://amzn.to/49VjaxU
 
@@ -15,7 +15,7 @@ IKIGAI: https://amzn.to/4bbxMuj
 
 O Milagre da manhã: https://amzn.to/3JS2lcV
 
-## Equipamentos:
+# Equipamentos:
 
 Notebook: https://amzn.to/4debSYY
 
