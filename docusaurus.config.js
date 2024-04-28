@@ -63,6 +63,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
               title: "Siga-nos também em:",
               items: [
                 {
+                  label: "Youtube",
+                  href: "https://www.youtube.com/channel/UCdHlZugvc3w3hfHBSTLTD5w?sub_confirmation=1",
+                },
+                {
                   label: "Instagram",
                   href: "https://www.instagram.com/init_code/",
                 },
