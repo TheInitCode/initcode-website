@@ -11,7 +11,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+    favicon: "/img/logo.ico",
     projectName: "init-code",
 
     presets: [
