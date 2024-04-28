@@ -46,15 +46,25 @@
 @media screen and (max-width: 1454px) {
   .bannerContainerText {
     max-width: 27rem;
-    font-size: large;
+    font-size: x-large;
   }
 }
 
 @media screen and (max-width: 1054px) {
   .bannerContainerText {
     margin-top: 0;
+    max-width: 40rem;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .bannerContainerText {
+    margin-top: 0;
+    max-width: 22rem;
+    font-size: medium;
+  }
+}
+
 
 .buttons {
   display: flex;
