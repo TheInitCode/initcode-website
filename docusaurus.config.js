@@ -42,7 +42,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
           items: [
             {
               type: "doc",
-              docId: 'Cursos/git',
+              docId: 'cursos/git',
               label: "Mais informações",
             },
           ],

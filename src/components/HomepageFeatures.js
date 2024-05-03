@@ -72,7 +72,7 @@ export default function HomepageFeatures() {
         </div>
       </section>
       <div className={styles.buttons}>
-        <Link className="button button--primary button--lg" to="/docs/Cursos/git">
+        <Link className="button button--primary button--lg" to="/docs/cursos/git">
           Confira nossos cursos
         </Link>
       </div>
