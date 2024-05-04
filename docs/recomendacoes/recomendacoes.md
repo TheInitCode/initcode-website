@@ -16,13 +16,13 @@ Da uma olhada nessa [página](./notebooks), ela vai te ajudar!
 
 ## Meus Equipamentos:
 
-Notebook: https://amzn.to/4debSYY  <br />
-Cadeira ergonômica: https://amzn.to/3Jyf9ov  <br />
-Monitor 27': https://amzn.to/3UbGkKH  <br />
-Monitor 24': https://amzn.to/49Pm1bU  <br />
-Suporte: https://amzn.to/3UwNWJd  <br />
-GoPro: https://amzn.to/4b5wAII ou https://amzn.to/4a6AyQF  <br />
-Monitor de audio: https://amzn.to/44bM7Vg  <br />
-Mouse: https://amzn.to/4b91Oi5  <br />
-Teclado: https://amzn.to/44c2Do6  <br />
-Microfone: https://amzn.to/3xQnyRy
+Notebook - [Confira!](https://amzn.to/4debSYY)  <br />
+Cadeira ergonômica - [Confira!](https://amzn.to/3Jyf9ov)  <br />
+Monitor 27' - [Confira!](https://amzn.to/3UbGkKH)  <br />
+Monitor 24' - [Confira!](https://amzn.to/49Pm1bU)  <br />
+Suporte - [Confira!](https://amzn.to/3UwNWJd)  <br />
+GoPro - [Confira!](https://amzn.to/4b5wAII) ou [Confira!](https://amzn.to/4a6AyQF)  <br />
+Monitor de audio - [Confira!](https://amzn.to/44bM7Vg)  <br />
+Mouse - [Confira!](https://amzn.to/4b91Oi5)  <br />
+Teclado - [Confira!](https://amzn.to/44c2Do6)  <br />
+Microfone - [Confira!](https://amzn.to/3xQnyRy)

@@ -17,16 +17,16 @@ Se você tem dúvidas do que avaliar. Da uma olhada nessa [página](./avaliar.md
 
 ### Entre R$: 1500,00 e R$: 2500,00
 
-Notebook Lenovo IdeaPad - https://amzn.to/4b2wNN5 <br />
-Notebook Acer Aspire 5 - https://amzn.to/3JL9N9C
+Notebook Lenovo IdeaPad - [Confira!](https://amzn.to/4b2wNN5) <br />
+Notebook Acer Aspire 5 - [Confira!](https://amzn.to/3JL9N9C)
 
 ### Entre R$: 2500,00 e R$: 3500,00
 
-Notebook Lenovo Ideapad - https://amzn.to/3Qtxqav <br />
-Notebook Acer aspire 3 - https://amzn.to/3UtsKlQ
+Notebook Lenovo Ideapad - [Confira!](https://amzn.to/3Qtxqav) <br />
+Notebook Acer aspire 3 - [Confira!](https://amzn.to/3UtsKlQ)
 
 ### Acima de R$: 5mil
 
-Notebook Dell Inspiron I15-I1300-M30S - Link: https://amzn.to/4akqvHP <br />
-Notebook Gamer Dell G15-i1300-A20P(não poderia deixar de recomendar o meu notebook) - Link: https://amzn.to/4bk6y4t <br />
-Notebook Gamer Acer Nitro 5 - Link: https://amzn.to/49ZZ6uh
+Notebook Dell Inspiron I15-I1300-M30S - Link: [Confira!](https://amzn.to/4akqvHP) <br />
+Notebook Gamer Dell G15-i1300-A20P (o meu note 😊) - Link: [Confira!](https://amzn.to/4bk6y4t) <br />
+Notebook Gamer Acer Nitro 5 - Link: [Confira!](https://amzn.to/49ZZ6uh)
