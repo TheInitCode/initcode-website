@@ -27,6 +27,6 @@ Notebook Acer aspire 3 - [Confira!](https://amzn.to/3UtsKlQ)
 
 ### Acima de R$: 5mil
 
-Notebook Dell Inspiron I15-I1300-M30S - Link: [Confira!](https://amzn.to/4akqvHP) <br />
-Notebook Gamer Dell G15-i1300-A20P (o meu note 😊) - Link: [Confira!](https://amzn.to/4bk6y4t) <br />
-Notebook Gamer Acer Nitro 5 - Link: [Confira!](https://amzn.to/49ZZ6uh)
+Notebook Dell Inspiron I15-I1300-M30S - [Confira!](https://amzn.to/4akqvHP) <br />
+Notebook Gamer Dell G15-i1300-A20P (o meu note 😊) - [Confira!](https://amzn.to/4bk6y4t) <br />
+Notebook Gamer Acer Nitro 5 - [Confira!](https://amzn.to/49ZZ6uh)
