@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ## Pensando em comprar um Notebook?
 
-Da uma olhada nessa [página](./notebooks.md), ela vai te ajudar!
+Da uma olhada nessa [página](./notebooks), ela vai te ajudar!
 
 ## Meus Equipamentos:
 

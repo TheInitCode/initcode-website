@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Mini aulas
 
-É regra é clara! Somente 15 MINUTOS!
+A regra é clara! Somente 15 MINUTOS!
 
 Nos próximos 15 minutos, vamos mergulhar nos fundamentos dessas duas linguagens essenciais para a construção de páginas da web.
 
