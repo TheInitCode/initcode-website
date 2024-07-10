@@ -33,6 +33,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         navbar: {
+          hideOnScroll: true,
           title: "Init Code",
           logo: {
             alt: "Init Code Logo",
@@ -42,8 +43,38 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
           items: [
             {
               type: "doc",
+              docId: 'cursos/node',
+              position: 'left',
+              label: "NodeJS",
+            },
+            {
+              type: "doc",
               docId: 'cursos/git',
-              label: "Mais informações",
+              position: 'left',
+              label: "Git e GitHub",
+            },
+            {
+              type: "doc",
+              docId: 'cursos/csharp',
+              position: 'left',
+              label: "C#",
+            },
+            {
+              type: "doc",
+              docId: 'cursos/cpp',
+              position: 'left',
+              label: "C++",
+            },
+            {
+              type: "doc",
+              docId: 'cursos/mini',
+              position: 'left',
+              label: "Outros cursos",
+            },
+            {
+              type: "doc",
+              docId: 'recomendacoes/recomendacoes',
+              label: "Recomendações",
             },
           ],
         },
