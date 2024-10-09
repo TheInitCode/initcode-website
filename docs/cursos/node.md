@@ -3,10 +3,14 @@ sidebar_position: 1
 ---
 # NodeJS
 
-Bem-vindo à nossa Playlist de Node.js, sua jornada completa desde os conceitos básicos até a criação de uma API completa com autenticação JWT e integração com banco de dados MySQL! Nesta série de vídeos empolgantes, vamos mergulhar no mundo do desenvolvimento backend com Node.js e explorar as possibilidades infinitas que esta poderosa tecnologia oferece.
+Quer aperfeiçoar eu aprendizado em NodeJS?
 
-Começaremos do zero, explicando os fundamentos do Node.js: o que é, como instalar e por que é uma escolha popular para o desenvolvimento de servidores e APIs. Você aprenderá a criar seus primeiros scripts em JavaScript no servidor, manipulando variáveis, funções e estruturas de controle de fluxo.
+Então da uma olhada no meu curso Do Zero à API aqui na udemy:
+[Link aqui](https://www.udemy.com/course/do-zero-a-api-nodejs/?referralCode=031655834C6F63128255)
 
-Exploraremos tópicos mais avançados, como manipulação de arquivos, manipulação de eventos, e o uso de módulos e pacotes npm para expandir as capacidades do seu aplicativo Node.js. Vamos construir aplicações práticas passo a passo, desde simples CRUDs até APIs RESTful completas, dando-lhe a confiança para construir seus próprios projetos do zero.
+<img src={require('../../static/udemy.png').default} alt="alt text" style={{width: '700px'}} />
+
+
+Quer iniciar na programação sem paga NADA? Acompanha aqui a minha playlist de node, onde começaremos do zero, explicando os fundamentos do Node.js: o que é, como instalar e por que é uma escolha popular para o desenvolvimento de servidores e APIs. Você aprenderá a criar seus primeiros scripts em JavaScript no servidor, manipulando variáveis, funções e estruturas de controle de fluxo.
 
 <iframe src="https://www.youtube.com/embed/videoseries?si=zfO9UOs51tMxMneN&amp;list=PLI8zu4XrMjAxe5dGI2tiQ8MQAfdT4fGjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
