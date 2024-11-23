@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #1A1A1A;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* TODO: Ajustar barras de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  scrollbar-width: thin; /* Barra fina */
+}
+
+/* Trilho da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #1f1f1f; /* Fundo claro */
+}
+
+/* Polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #4e4e4e; /* Cor preta para o polegar */
+  border-radius: 50px; /* Arredondado */
+}
+
+
+
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
