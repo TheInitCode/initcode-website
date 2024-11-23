@@ -77,12 +77,14 @@ export default function Home() {
               <span>Conteúdo</span>
             </div>
           </div>
+         <div className='udemy-link'>
           <a
-            href='https://www.udemy.com/course/do-zero-a-api-nodejs/?referralCode=031655834C6F63128255'
-            target='_blank'
-          >
-            Conhecer
-          </a>
+              href='https://www.udemy.com/course/do-zero-a-api-nodejs/?referralCode=031655834C6F63128255'
+              target='_blank'
+            >
+              Conhecer
+            </a>
+         </div>
         </div>
   
       </div>

@@ -1,165 +1,233 @@
 .home {
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10em 15em;
-    }
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10em 15em;
 
-    .first-section {
-        font-size: 30px;
-        align-items: center;
+    @media (max-width: 1524px) {
+        padding: 10em 5%;
+    }
+  
+      @media (max-width: 1024px) {
         flex-direction: column;
+        padding: 3em 5em;
+      }
+  
+      @media (max-width: 768px) {
+        padding: 2em;
+        text-align: center;
+      }
+    }
+  
+    .first-section {
+      font-size: 28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 3em;
+  
+      h1 {
         display: flex;
-        padding-top: 3em;
-
-        h1{
-            display: flex;
-            padding: 20px 0;
-            align-items: center;
-
-            img {
-                width: 70px;
-                height: 70px;
-                margin-left: 20px;
-            }
-        }
-
-        a {
-            padding: 15px 25px;
-            font-size: 20px;
-            background-color: #FF4D00;
-            color: #FFF;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    }
-
-    .second-section {
-        padding-top: 2em;
-        padding-bottom: 0;
-        .text {
-            width: 50%;
-            font-size: 22px;
-            text-align: center;
-
-            p {
-                text-align: center;
-            }
-        }
-
+        align-items: center;
+        padding: 10px 0;
+  
         img {
-            width: 35%;
+          width: 50px;
+          height: 50px;
+          margin-left: 10px;
         }
+      }
+  
+      a {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #FF4D00;
+        color: #FFF;
+        text-decoration: none;
+        border-radius: 5px;
+  
+        @media (max-width: 768px) {
+          font-size: 16px;
+          padding: 8px 15px;
+        }
+      }
     }
-
-    .third-section {
-        color: #000;
-        background-color: #FFF;
-        /* padding-top: 5em; */
-
-        .udemy-detalhes {
-            width: 65%;
-            height: 450px;
-            display: flex;
-            background-color: #1A1A1A;
-            box-shadow: 0 0 10px #0000001A;
-            border-radius: 20px;
-            color: #FFF;
+  
+    .second-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 2em;
+      padding-bottom: 0;
+  
+      .text {
+        width: 50%;
+        font-size: 22px;
+  
+        p {
+          text-align: justify;
+          @media (max-width: 1524px) {
+              font-size: 18px;
+          }
+  
+          @media (max-width: 768px) {
             font-size: 18px;
-
-            .udemy-detalhes-texto{
-                padding: 20px;
-
-                h2 {
-                    padding: 10px;
-                    background-color: #FFF;
-                    color: #000;
-                    border-radius: 8px;
-                    text-align: center;
-                }
-
-                ul {
-                    margin-left: 20px;
-                    list-style-type: none;
-                    
-                    li::marker {
-                        font-size: 1.5em;
-                        content: "—  ";
-                        color: #FF4D00;
-                    }
-                }
+            text-align: center;
+          }
+        }
+  
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+  
+      img {
+        width: 35%;
+  
+        @media (max-width: 768px) {
+          width: 80%;
+          margin-top: 20px;
+        }
+      }
+    }
+  
+    .third-section {
+      background-color: #FFF;
+      color: #000;
+      gap: 20px;
+  
+      .udemy-detalhes {
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        background-color: #1A1A1A;
+        color: #FFF;
+        border-radius: 20px;
+  
+        .udemy-detalhes-texto {
+          padding: 20px;
+          font-size: 18px;
+  
+          h2 {
+            font-size: 1.4em;
+            padding: 10px;
+            background-color: #FFF;
+            color: #000;
+            border-radius: 8px;
+            text-align: center;
+          }
+  
+          ul {
+            margin-left: 10px;
+            list-style: none;
+  
+            li::marker {
+              font-size: 1.2em;
+              content: "— ";
+              color: #FF4D00;
             }
-
-            
-            img {
-                width: 400px;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 20px 0 0 20px;
-            }
+          }
+        }
+  
+        img {
+          width: 50%;
+          object-fit: cover;
+          border-radius: 20px 0 0 20px;
+          @media (max-width: 1524px) {
+            width: 35%;
+          }
+  
+          @media (max-width: 768px) {
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+          }
         }
 
-        .udemy-destaques{
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            font-size: 19px;
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
+  
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+      }
+  
+      .udemy-destaques {
+        width: 35%;
+        text-align: center;
+        font-size: 18px;
+        
+        .udemy-topicos {
+          display: flex;
+          justify-content: space-around;          
+          margin: 40px 0;
+  
+          div {
             text-align: center;
+  
+            img {
+              width: 80px;
+              height: 80px;
+              display: block;
+            }
+  
+            .number {
+              font-size: 30px;
+              color: #FF4D00;
+              display: block;
+  
+              @media (max-width: 768px) {
+                font-size: 24px;
+              }
+            }
+          }
+          @media (max-width: 1024px) {
+            margin: 20px 0;
+            justify-content: space-around;
+          }
+        }
+
+        .udemy-link{
+            display: flex;
             justify-content: center;
 
-            .udemy-topicos {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                margin: 40px 0;
-
-                .number {
-                    font-size: 35px;
-                    color: #FF4D00;
-                }
-                span {
-                    display: block;
-                    font-weight: bold;
-                    font-size: 20px;
-                }
-
-                img {
-                    width: 100px;
-                    height: 100px;
-                }
-            }
-
             a {
-                padding: 15px;
-                font-size: 20px;
-                background-color: #FF4D00;
-                color: #FFF;
-                text-decoration: none;
-                border-radius: 10px;
+                width: 90%;
+                display: block;
+              padding: 10px 15px;
+              font-size: 18px;
+              background-color: #FF4D00;
+              color: #FFF;
+              border-radius: 5px;
+              text-decoration: none;
             }
         }
-    }
 
-    .fourth-section {
-        color: #000;
-        background-color: #FFF;
-        flex-direction: column;
-
-        div {
-            background-color: #1A1A1A;
-            color: #FFF;
-            padding: 30px;
-            border-radius: 20px;
-            font-size: 22px;
+        @media (max-width: 1024px) {
+          width: 100%;
         }
+      }
     }
-
-    /*
-    second
-    third
-    fourth
-    fifth
-    */
-}
+  
+    .fourth-section {
+      background-color: #FFF;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      padding: 2em;
+  
+      div {
+        background-color: #1A1A1A;
+        color: #FFF;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+  
+        @media (max-width: 768px) {
+          font-size: 18px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+  

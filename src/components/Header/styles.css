@@ -1,3 +1,4 @@
+/* Estilos gerais */
 header {
     background-color: #000;
     color: #FFF;
@@ -8,6 +9,7 @@ header {
     justify-content: space-between;
     gap: 1em;
 }
+
 header img {
     width: 100px;
     height: 100px;
@@ -35,11 +37,12 @@ header nav a:not(:first-child)::before {
     background-color: #FFF;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     transition: border-bottom 1s ease;
 }
-header nav a li{
+
+header nav a li {
     transition: color 1s ease;
     color: white;
     text-align: center;
@@ -47,6 +50,52 @@ header nav a li{
     list-style: none;
     font-size: 23px;
 }
+
 header nav a li:hover {
-    color: #ff4d00d5 ;
+    color: #ff4d00d5;
+}
+
+/* Responsividade */
+
+/* Telas pequenas (móveis) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0.5em 2%;
+    }
+
+    header img {
+        width: 80px;
+        height: 80px;
+    }
+    header nav a li {
+        font-size: 18px;
+    }
+}
+
+/* Telas médias (tablets e dispositivos médios) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 0.8em 3%;
+    }
+
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+
+    header nav ul {
+        gap: 0.8em;
+    }
+
+    header nav a li {
+        font-size: 20px;
+        padding: 5px 12px;
+    }
+}
+
+/* Telas grandes (desktops e laptops) */
+@media screen and (max-width: 1524px) {
+    header {
+        padding: 1em 5%;
+    }
 }

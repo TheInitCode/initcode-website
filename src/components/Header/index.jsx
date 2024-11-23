@@ -15,7 +15,7 @@ export default function Header(){
                         <li>Início</li>
                     </Link>
                     <Link to="/courses">
-                        <li>Acesse e Aprenda</li>
+                        <li>Cursos</li>
                     </Link>
                     <Link to="/recomendation">
                         <li>Recomendações</li>
