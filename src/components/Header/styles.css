@@ -1,10 +1,10 @@
 /* Geral */
  
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1em 16em;
     background-color: #000000;
     color: white;
     position: relative;
@@ -144,3 +144,30 @@ header nav a li:hover {
     }
 }
   
+/* Telas médias (tablets e dispositivos médios) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        padding: 0.8em 3%;
+    }
+
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+
+    header nav ul {
+        gap: 0.8em;
+    }
+
+    header nav a li {
+        font-size: 20px;
+        padding: 5px 12px;
+    }
+}
+
+/* Telas grandes (desktops e laptops) */
+@media screen and (max-width: 1524px) {
+    header {
+        padding: 1em 5%;
+    }
+}
