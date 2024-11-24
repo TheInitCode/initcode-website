@@ -12,7 +12,9 @@ h1 {
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 /* TODO: Ajustar barras de rolagem */
 ::-webkit-scrollbar {

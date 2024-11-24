@@ -10,12 +10,9 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 35px;
+        gap: 0 10px;
         margin-bottom: 20px;
-
-        @media (max-width: 768px) {
-            gap: 20px;
-        }
+        flex-wrap: wrap;
     }
     a{
         transition: 0.3s;

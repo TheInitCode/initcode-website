@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 const cursos = [
@@ -48,6 +49,11 @@ export default function Courses() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
               </iframe>
+              {
+                curso.title === 'Node.js' 
+                  && <Link to="/#udemy">
+                    Acesse a playlist completa
+                  </Link>}
           </div>
         ))}
       </div>

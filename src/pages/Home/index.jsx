@@ -6,9 +6,20 @@ import tagIcon from '../../assets/tag-icon.png';
 import character from '../../assets/character.png';
 
 import './styles.css'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return (
     <div className='home'>
   
@@ -40,8 +51,8 @@ export default function Home() {
       </div>
 
       <div className='container third-section'>
-        <div className='udemy-detalhes'>
-          <img src={capaUdemy} alt='Logo do React' />
+        <div className='udemy-detalhes' id='udemy'>
+          <img src={capaUdemy} alt='Logo do React'/>
           <div className='udemy-detalhes-texto'>
             <h2>Rest API em JavaScript(NodeJS) + Hospedagem</h2>
             <ul>
@@ -126,7 +137,7 @@ export default function Home() {
                 ilimitado que a codificação oferece. Estamos ansiosos para sermos
                 parte do seu sucesso!  
               </p>
-              <Link to='/courses'>
+              <Link to='/courses' reloadDocument={true}>
                 Bora Codar
               </Link>
             </div>

@@ -26,6 +26,9 @@
       flex-direction: column;
       align-items: center;
       padding-top: 3em;
+      @media (max-width: 768px) {
+        padding-top: 1em;
+      }
   
       h1 {
         display: flex;
@@ -295,6 +298,9 @@
 
             span {
                 color: #FF4D00;
+            }
+            @media (max-width: 768px) {
+                font-size: 26px;
             }
         }
 

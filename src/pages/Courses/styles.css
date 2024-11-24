@@ -56,6 +56,27 @@
                 height: 15em;
             }
         }
+
+        a {
+            display: block;
+            text-align: center;
+            padding: 12px 20px;
+            font-size: 20px;
+            border: solid 1px #FF4D00;
+            color: #FF4D00;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+      
+            @media (max-width: 768px) {
+              font-size: 16px;
+            }
+          }
+          a:hover {
+            background-color: #1f1f1f;
+            transform: scale(1.02);
+          }
     }
     .white{
         background-color: white;

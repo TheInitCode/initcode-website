@@ -1,28 +1,49 @@
 import logoDark from '../../assets/logo-dark.svg';
-// import logoLight from '../../assets/logo-light.svg';
 import { Link } from 'react-router-dom';
-import './styles.css'
+import { useState } from 'react';
+import './styles.css';
 
-export default function Header(){
-    return (
-        <header>
-            <Link to="/">
-                <img src={logoDark} alt='Logo do React' />
+export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+    <header className="header">
+      <Link to="/">
+        <img src={logoDark} alt="Logo do React" className="logo" />
+      </Link>
+      <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </button>
+      <nav className={`nav ${menuOpen ? 'open' : ''}`}>
+        <div className="close">
+            <span onClick={toggleMenu} aria-label="Close menu">
+                X
+            </span>
+        </div>
+        <ul>
+            <Link to="/" onClick={() => setMenuOpen(false)}>
+                <li>
+                    Início
+                </li>
             </Link>
-            <nav>
-                <ul>
-                    <Link to="/">
-                        <li>Início</li>
-                    </Link>
-                    <Link to="/courses">
-                        <li>Cursos</li>
-                    </Link>
-                    <Link to="/recomendation">
-                        <li>Pra Você</li>
-                    </Link>
-                </ul>
-            </nav>
-            <p></p>
-        </header>
-    )
+            <Link to="/courses" onClick={() => setMenuOpen(false)}>
+                <li>
+                    Cursos
+                </li>
+            </Link>
+            <Link to="/recomendation" onClick={() => setMenuOpen(false)}>
+                <li>
+                    Recomendações
+                </li>
+            </Link>
+        </ul>
+      </nav>
+    </header>
+  );
 }
