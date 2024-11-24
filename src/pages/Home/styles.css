@@ -1,0 +1,327 @@
+.home {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10em 15em;
+
+      @media (max-width: 1524px) {
+          padding: 10em 5%;
+      }
+  
+      @media (max-width: 1024px) {
+        flex-direction: column;
+        padding: 3em 5em;
+      }
+  
+      @media (max-width: 768px) {
+        padding: 2em;
+        text-align: center;
+      }
+    }
+  
+    .first-section {
+      font-size: 28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 3em;
+  
+      h1 {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+  
+        img {
+          width: 50px;
+          height: 50px;
+          margin-left: 10px;
+        }
+      }
+  
+      a {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #FF4D00;
+        color: #FFF;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.3s;
+  
+        @media (max-width: 768px) {
+          font-size: 16px;
+          padding: 8px 15px;
+        }
+      }
+      a:hover {
+        background-color: #dd4200;
+        transform: scale(1.1);
+      }
+    }
+  
+    .second-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 3em;
+      padding-bottom: 0;
+      align-items: start;
+
+      .text {
+        width: 60%;
+        font-size: 25px;
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
+
+        h1{
+          @media (max-width: 1824px) {
+            font-size: 50px;
+          }
+          @media (max-width: 1724px) {
+            font-size: 40px;
+          }
+
+          @media (max-width: 768px) {
+            font-size: 28px;
+            text-align: center;
+          }
+        }
+  
+        p {
+          text-align: justify;
+          @media (max-width: 1824px) {
+              font-size: 22px;
+          }
+          @media (max-width: 1724px) {
+              font-size: 20px;
+          }
+  
+          @media (max-width: 768px) {
+            font-size: 18px;
+            text-align: center;
+          }
+        }
+  
+        @media (max-width: 768px) {
+          font-size: 18px;
+        }
+      }
+  
+      img {
+        width: 35%;
+        @media (max-width: 1524px) {
+          height: 80%;
+        }
+  
+        @media (max-width: 768px) {
+          width: 80%;
+          margin-top: 20px;
+        }
+      }
+    }
+  
+    .third-section {
+      background-color: #FFF;
+      color: #000;
+      gap: 20px;
+  
+      .udemy-detalhes {
+        width: 65%;
+        min-height: 500px;
+        display: flex;
+        flex-direction: row;
+        background-color: #1A1A1A;
+        color: #FFF;
+        border-radius: 20px;
+  
+        .udemy-detalhes-texto {
+          padding: 20px;
+          font-size: 18px;
+  
+          h2 {
+            font-size: 1.4em;
+            padding: 10px;
+            background-color: #FFF;
+            color: #000;
+            border-radius: 8px;
+            text-align: center;
+          }
+  
+          ul {
+            margin-left: 10px;
+            list-style: none;
+  
+            li::marker {
+              font-size: 1.2em;
+              content: "— ";
+              color: #FF4D00;
+            }
+          }
+        }
+  
+        img {
+          width: 50%;
+          object-fit: cover;
+          border-radius: 20px 0 0 20px;
+          @media (max-width: 1524px) {
+            width: 35%;
+          }
+  
+          @media (max-width: 768px) {
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+          }
+        }
+
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
+  
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
+      }
+  
+      .udemy-destaques {
+        width: 35%;
+        text-align: center;
+        font-size: 18px;
+        
+        .udemy-topicos {
+          display: flex;
+          justify-content: space-around;          
+          margin: 40px 0;
+  
+          div {
+            text-align: center;
+  
+            img {
+              width: 80px;
+              height: 80px;
+              display: block;
+            }
+  
+            .number {
+              font-size: 30px;
+              color: #FF4D00;
+              display: block;
+  
+              @media (max-width: 768px) {
+                font-size: 24px;
+              }
+            }
+          }
+          @media (max-width: 1024px) {
+            margin: 20px 0;
+            justify-content: space-around;
+          }
+        }
+
+        .udemy-link{
+            display: flex;
+            justify-content: center;
+
+            a {
+              width: 90%;
+               display: block;
+              padding: 10px 15px;
+              font-size: 18px;
+              background-color: #FF4D00;
+              color: #FFF;
+              border-radius: 5px;
+              text-decoration: none;
+              transition: 0.3s;
+            }
+            a:hover {
+              background-color: #dd4200;
+              transform: scale(1.1);
+            }
+        }
+
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
+      }
+    }
+  
+}
+
+.about {
+    background-image: url('/src/assets/dev.jpg');
+    background-size: cover;
+    background-position: center;
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+
+      @media (max-width: 1824px) {
+          padding: 3em 5%;
+      }
+    
+      @media (max-width: 1024px) {
+          padding: 3em 5em;
+      }
+  
+      @media (max-width: 768px) {
+          padding: 2em;
+          text-align: center;
+      }
+    }
+
+    .card {
+      padding: 3%;
+      display: flex;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+
+      .card-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        text-align: justify;
+    
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+
+        h1 {
+            margin: 0 20px;
+
+            span {
+                color: #FF4D00;
+            }
+        }
+
+        a {
+          text-align: center;
+          padding: 10px 20px;
+          font-size: 20px;
+          background-color: #FF4D00;
+          color: #FFF;
+          text-decoration: none;
+          border-radius: 5px;
+          margin-top: 100px;
+          transition: 0.3s;
+    
+          @media (max-width: 768px) {
+            font-size: 16px;
+            padding: 8px 15px;
+            margin: 50px 0;
+          }
+        }
+        a:hover {
+          background-color: #dd4200;
+          transform: scale(1.1);
+        }
+      }
+    }
+    .middle{
+        padding: 0 3%;
+    }
+}

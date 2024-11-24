@@ -1,0 +1,64 @@
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        width: 100%;
+        margin: 0;
+        padding-top: 1em;
+        font-size: 40px;
+    }
+
+    .card{
+        border-radius: 5px;
+        padding: 3em 20em;
+
+        @media (max-width: 1854px) {
+            padding: 3em 17%;
+        }
+        @media (max-width: 1624px) {
+            padding: 3em 5%;
+        }
+        @media (max-width: 768px) {
+            padding: 3em 1em;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 22px;
+            padding: 0 5em;
+            @media (max-width: 1254px) {
+                font-size: 20px;
+                padding: 0 12em;
+            }
+            @media (max-width: 1254px) {
+                font-size: 18px;
+                padding: 0 0;
+            }
+        }
+
+        .iframe{
+            width: 80%;
+            height: 35em;
+            @media (max-width: 1654px) {
+                width: 800px;
+            }
+            @media (max-width: 1024px) {
+                width: 100%;
+            }
+            @media (max-width: 768px) {
+                height: 15em;
+            }
+        }
+    }
+    .white{
+        background-color: white;
+        color: black;
+    }
+}
