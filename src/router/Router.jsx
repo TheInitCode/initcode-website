@@ -13,6 +13,7 @@ export default function Router() {
                 <Route path="/courses" element={<Courses />} />
                 <Route path="/recomendation" element={<Recomendation />} />
                 <Route path="/notebooks" element={<Notebooks />} />
+                <Route path="*" element={<Home />} />
             </Route>
         </Routes>
     )
