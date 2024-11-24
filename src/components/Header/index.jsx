@@ -18,10 +18,7 @@ export default function Header(){
                         <li>Cursos</li>
                     </Link>
                     <Link to="/recomendation">
-                        <li>Recomendações</li>
-                    </Link>
-                    <Link to="/about">
-                        <li>Sobre</li>
+                        <li>Pra Você</li>
                     </Link>
                 </ul>
             </nav>

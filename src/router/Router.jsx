@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import Layout from "../components/Layout";
 import Courses from "../pages/Courses";
 import Recomendation from "../pages/Recomendation";
-import About from "../pages/About";
+import Notebooks from "../pages/Notebooks";
 
 export default function Router() {
     return (
@@ -12,7 +12,7 @@ export default function Router() {
                 <Route path="/" element={<Home />} />
                 <Route path="/courses" element={<Courses />} />
                 <Route path="/recomendation" element={<Recomendation />} />
-                <Route path="/about" element={<About />} />
+                <Route path="/notebooks" element={<Notebooks />} />
             </Route>
         </Routes>
     )

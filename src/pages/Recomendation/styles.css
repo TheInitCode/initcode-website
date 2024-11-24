@@ -1,0 +1,131 @@
+.recomendation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .social-media {
+        display: flex;
+        background-color: #FFF;
+        color: #000;
+        padding: 7em 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            width: 60%;
+            .act{
+                color: #FF4D00;
+            }
+            @media (max-width: 768px) {
+                width: 90%;
+            }
+            @media (max-width: 1524px) {
+                font-size: 30px;
+            }
+        }
+
+
+        .social-links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            gap: 20px;
+            @media (max-width: 768px) {
+                flex-wrap: wrap;
+            }
+            a {
+                font-size: 2em;
+                transition: 0.3s;
+            }
+            a:hover {
+                scale: 1.2;
+            }
+        }
+    }
+
+    .notebooks{
+        background-image: url('src/assets/note.jpg');
+        background-size: cover;
+        background-position: center;
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+            padding: 9em 12em;
+
+            @media (max-width: 1524px) {
+                padding: 5em 3px;
+                font-size: 18px;
+            } 
+        }
+        p, h1, h3 {
+            width: 60%;
+            z-index: 2;
+            @media (max-width: 768px) {
+                width: 90%;
+            }
+        }
+        a {
+            color: #FF4D00
+        }
+    }
+
+    .setup{
+        padding: 5% 10%;
+        font-size: 40px;
+        text-align: center;
+        @media (max-width: 1524px) {
+            font-size: 30px;
+        }
+    }
+
+    .things {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 1em 12em 5em 12em;
+
+        @media (max-width: 1524px) {
+            padding: 1em 3%;
+        }
+
+        .thing {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+            background-color: #FFF;
+            border-radius: 10px;
+            color: black;
+            width: 300px;
+            min-height: 300px;
+            text-align: center;
+            text-decoration: none;
+
+            img {
+                max-width: 300px;
+                max-height: 300px;
+
+            }
+            transition: 0.3s;
+        }
+        .thing:hover {
+            scale: 1.05;
+            color: #FF4D00;
+        }
+    }
+}
