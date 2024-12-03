@@ -10,24 +10,24 @@ const cursos = [
   {
     title: 'C++',
     description: 'Começaremos do zero, explicando os conceitos básicos de C++: como declarar variáveis,'
-      + 'atribuir valores a elas e realizar operações simples. Você aprenderá a linguagem de programação'
-      + 'C++ de forma gradual, com explicações claras e exemplos práticos para ajudar a solidificar seu'
+      + 'atribuir valores a elas e realizar operações simples. Você aprenderá a linguagem de programação '
+      + 'C++ de forma gradual, com explicações claras e exemplos práticos para ajudar a solidificar seu '
       + 'entendimento.',
     video: 'https://www.youtube.com/embed/videoseries?si=w8IacHiT3RCUqYbh&list=PLI8zu4XrMjAy3MBlM7qyPq6OTOA_iZ7tG'
   },
   {
     title: 'C#',
-    description: 'Prepare-se para dominar uma das linguagens mais poderosas e versáteis do mundo da programação.'
-      + 'Vamos começar do zero, explorando os fundamentos da linguagem. Aprenderemos como criar variáveis, compreender estruturas' 
-      + 'de condição e repetição.'
-      + 'Você aprenderá a definir e chamar funções, passar argumentos e retornar valores, permitindo uma maior flexibilidade e eficiência em seus programas.'
+    description: 'Prepare-se para dominar uma das linguagens mais poderosas e versáteis do mundo da programação. '
+      + 'Vamos começar do zero, explorando os fundamentos da linguagem. Aprenderemos como criar variáveis, compreender estruturas ' 
+      + 'de condição e repetição. '
+      + 'Você aprenderá a definir e chamar funções, passar argumentos e retornar valores, permitindo uma maior flexibilidade e eficiência em seus programas. '
       + 'A partir daí, avançaremos para um dos pilares mais importantes da programação moderna: a orientação a objetos.',
     video: 'https://www.youtube.com/embed/videoseries?si=xPUvbUZ89p4gzoVq&list=PLI8zu4XrMjAwbI0qpgEMKF4PotrvWhkKh'
   },
   {
     title: 'Git, GitHub e GitHub Pages',
-    description: 'Começaremos do zero, explicando os conceitos básicos do Git: o que é versionamento, por que é importante e como começar a usá-lo em seus projetos.'
-      + 'Você aprenderá a criar e gerenciar repositórios no GitHub, colaborar com outros desenvolvedores, abrir e revisar pull requests e muito mais.'
+    description: 'Começaremos do zero, explicando os conceitos básicos do Git: o que é versionamento, por que é importante e como começar a usá-lo em seus projetos. '
+      + 'Você aprenderá a criar e gerenciar repositórios no GitHub, colaborar com outros desenvolvedores, abrir e revisar pull requests e muito mais. '
       + 'Finalmente, fecharemos a playlist com um mergulho emocionante na hospedagem de sites estáticos no GitHub Pages.',
       video: 'https://www.youtube.com/embed/videoseries?si=rEphQscu-RhfeD5x&list=PLI8zu4XrMjAzva6GTrDPiWd_RwXZFzKj6'
   }
@@ -52,7 +52,7 @@ export default function Courses() {
               {
                 curso.title === 'Node.js' 
                   && <Link to="/#udemy">
-                    Acesse a playlist completa
+                    Quer certificado?
                   </Link>}
           </div>
         ))}

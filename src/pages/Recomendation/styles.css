@@ -52,7 +52,7 @@
     }
 
     .notebooks{
-        background-image: url('src/assets/note.jpg');
+        background-image: url('/src/assets/notebook.jpg');
         background-size: cover;
         background-position: center;
 
