@@ -24,7 +24,7 @@ export default function Home() {
     <div className='home'>
   
       <div className='first-section'>
-        <h1><span>Fala Dev</span><img src={tagIcon} alt='Tag' /></h1>
+        <h1><span>Faaala Dev</span><img src={tagIcon} alt='Tag' /></h1>
         
         <Link to='/courses'>
           Bora Codar
