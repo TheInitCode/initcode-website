@@ -71,13 +71,13 @@ export default function Home() {
           <div className='udemy-topicos'>
             <div>
               <img src={personIcon} alt='Logo do React' />
-              <span className='number'>+70</span>
+              <span className='number'>+134</span>
               <span>Alunos</span>
             </div>
 
             <div>
               <img src={startsIcon} alt='Logo do React' />
-              <span className='number'>5,0</span>
+              <span className='number'>4,9</span>
               <span>Estrelas</span>
             </div>
 
