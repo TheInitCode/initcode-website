@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './styles.css'
+import Midia from '../../components/Midia';
 
 const items = [
   {
@@ -63,26 +64,8 @@ export default function Recomendation() {
           Não perca nenhuma <span className='act'>novidade</span>, acompanhe as nossas redes sociais
         </h1>
 
-        <div className='social-links'>
-          <a href='https://www.youtube.com/channel/UCdHlZugvc3w3hfHBSTLTD5w?sub_confirmation=1'>
-              <img src='https://img.icons8.com/?size=100&id=19318&format=png&color=FF3D00' alt='Youtube' />
-          </a>
-          <a href='https://github.com/initcodeexemplos'>
-              <img src='https://img.icons8.com/material-rounded/100/000000/github.png' alt='Linkedin' />
-          </a>
-          <a href='https://www.instagram.com/init_code'>
-              <img src='https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000' alt='Site' />
-          </a>
-          <a href='https://www.facebook.com/people/Init-Code/61556939284040/'>
-              <img src='https://img.icons8.com/color/100/000000/facebook.png' alt='Facebook' />
-          </a>
-          <a href='https://www.tiktok.com/@init.code'>
-              <img src='https://img.icons8.com/color/100/000000/tiktok.png' alt='Tiktok' />
-          </a>
-          <a href='https://www.linkedin.com/in/renan-ponick-9107a5174/'>
-              <img src='https://img.icons8.com/?size=100&id=13930&format=png&color=0288D1' alt='Linkedin' />
-          </a>
-        </div>
+
+        <Midia size={100} />
 
       </div>
 

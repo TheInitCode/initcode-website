@@ -32,7 +32,7 @@
         }
 
 
-        .social-links{
+        .midia{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -42,8 +42,11 @@
                 flex-wrap: wrap;
             }
             a {
-                font-size: 2em;
+                font-size: 5em;
                 transition: 0.3s;
+            }
+            img{
+                font-size: 5em;
             }
             a:hover {
                 scale: 1.2;
