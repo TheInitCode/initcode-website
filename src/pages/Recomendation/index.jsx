@@ -71,15 +71,15 @@ export default function Recomendation() {
               <img src='https://img.icons8.com/material-rounded/100/000000/github.png' alt='Linkedin' />
           </a>
           <a href='https://www.instagram.com/init_code'>
-              <img src='https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000' alt='Instagram' />
+              <img src='https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000' alt='Site' />
           </a>
           <a href='https://www.facebook.com/people/Init-Code/61556939284040/'>
-              <img src='https://img.icons8.com/color/100/000000/facebook.png' alt='Instagram' />
+              <img src='https://img.icons8.com/color/100/000000/facebook.png' alt='Facebook' />
           </a>
-          <a href='https://www.youtube.com/channel/UCdHlZugvc3w3hfHBSTLTD5w?sub_confirmation=1'>
-              <img src='https://img.icons8.com/color/100/000000/tiktok.png' alt='Instagram' />
+          <a href='https://www.tiktok.com/@init.code'>
+              <img src='https://img.icons8.com/color/100/000000/tiktok.png' alt='Tiktok' />
           </a>
-          <a href='https://www.linkedin.com/company/init-code/'>
+          <a href='https://www.linkedin.com/in/renan-ponick-9107a5174/'>
               <img src='https://img.icons8.com/?size=100&id=13930&format=png&color=0288D1' alt='Linkedin' />
           </a>
         </div>

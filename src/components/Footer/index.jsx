@@ -20,7 +20,7 @@ export default function Footer(){
                 <a href='https://www.youtube.com/channel/UCdHlZugvc3w3hfHBSTLTD5w?sub_confirmation=1'>
                     <img src='https://img.icons8.com/color/48/000000/tiktok.png' alt='Instagram' />
                 </a>
-                <a href='https://www.linkedin.com/company/init-code/'>
+                <a href='https://www.linkedin.com/in/renan-ponick-9107a5174/'>
                     <img src='https://img.icons8.com/?size=50&id=13930&format=png&color=0288D1' alt='Linkedin' />
                 </a>
             </div>
