@@ -39,40 +39,45 @@ export default function Notebooks() {
               Notebook Lenovo IdeaPad
             </a>
           </li>
+        </ul>
+
+        <h2>Entre R$ 2500,00 e R$ 3500,00</h2>
+        <ul>
+          <li>
+            <a href="https://amzn.to/4aCW15A" target="_blank" rel="noopener noreferrer">
+              Notebook Lenovo Ideapad
+            </a>
+          </li>
+          <li>
+            <a href="https://amzn.to/4hb6JTh" target="_blank" rel="noopener noreferrer">
+              Notebook Acer Aspire 3
+            </a>
+          </li>
           <li>
             <a href="https://amzn.to/3JL9N9C" target="_blank" rel="noopener noreferrer">
               Notebook Acer Aspire 5
             </a>
           </li>
         </ul>
-
-        <h2>Entre R$ 2500,00 e R$ 3500,00</h2>
+      
+        <h2>Entre R$ 3500,00 e R$ 5000,00</h2>
         <ul>
           <li>
-            <a href="https://amzn.to/3Qtxqav" target="_blank" rel="noopener noreferrer">
-              Notebook Lenovo Ideapad
-            </a>
-          </li>
-          <li>
-            <a href="https://amzn.to/3UtsKlQ" target="_blank" rel="noopener noreferrer">
-              Notebook Acer Aspire 3
-            </a>
-          </li>
-        </ul>
-        <h2>Acima de R$ 5000,00</h2>
-        <ul>
-          <li>
-            <a href="https://amzn.to/4akqvHP" target="_blank" rel="noopener noreferrer">
+            <a href="https://amzn.to/3WDOUDZ" target="_blank" rel="noopener noreferrer">
               Notebook Dell Inspiron I15-I1300-M30S
             </a>
           </li>
+        </ul>
+
+        <h2>Acima de R$ 5000,00</h2>
+        <ul>
           <li>
-            <a href="https://amzn.to/4bk6y4t" target="_blank" rel="noopener noreferrer">
+            <a href="https://amzn.to/3Ebp5F3" target="_blank" rel="noopener noreferrer">
               Notebook Gamer Dell G15-i1300-A20P (o meu 😊)
             </a>
           </li>
           <li>
-            <a href="https://amzn.to/49ZZ6uh" target="_blank" rel="noopener noreferrer">
+            <a href="https://amzn.to/4aGfNNy" target="_blank" rel="noopener noreferrer">
               Notebook Gamer Acer Nitro 5
             </a>
           </li>
