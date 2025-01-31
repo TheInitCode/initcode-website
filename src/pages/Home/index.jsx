@@ -71,7 +71,7 @@ export default function Home() {
           <div className='udemy-topicos'>
             <div>
               <img src={personIcon} alt='Logo do React' />
-              <span className='number'>+170</span>
+              <span className='number'>+212</span>
               <span>Alunos</span>
             </div>
 
