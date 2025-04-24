@@ -84,6 +84,7 @@
         a {
             color: #FF4D00
         }
+
     }
 
     .setup{
@@ -95,40 +96,68 @@
         }
     }
 
-    .things {
+    
+    .things-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
-        padding: 1em 12em 5em 12em;
-
         @media (max-width: 1524px) {
             padding: 1em 3%;
+        }
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
         }
 
         .thing {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 5px;
+            padding: 15px;
             background-color: #FFF;
             border-radius: 10px;
             color: black;
-            width: 300px;
             min-height: 300px;
+            width: 300px;
             text-align: center;
             text-decoration: none;
 
-            img {
-                max-width: 300px;
-                max-height: 300px;
-
+            h2 {
+                margin: 0;
             }
-            transition: 0.3s;
+
+            .links {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin-top: 10px;
+                width: 100%;
+                @media (max-width: 768px) {
+                    flex-wrap: wrap;
+                }
+            }
+            .links a {
+                background-color: #FF4D00;
+                color: #FFF;
+                padding: 8px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 20px;
+                transition: 0.3s;
+                width: 50%;
+            }
+            .links a:hover {
+                scale: 1.1;
+            }
+
+            img {
+                max-height: 300px;
+                max-width: 300px;
+            }
         }
-        .thing:hover {
-            scale: 1.05;
-            color: #FF4D00;
-        }
+    }
+    .space-bottom{
+        margin-bottom: 5em;
     }
 }

@@ -26,64 +26,7 @@ export default function Notebooks() {
   };
 
   return (
-    <div className="notebooks-info">
-      <div className="container notebooks-sugestions">
-        <h1>Notebooks</h1>
-        <p>
-          Essa lista foi feita por um especialista em hardware, não pela minha pessoa. Ele trabalhou um tempo na manutenção de computadores, então você pode confiar.
-        </p>
-        <h2>Entre R$ 1500,00 e R$ 2500,00</h2>
-        <ul>
-          <li>
-            <a href="https://amzn.to/4b2wNN5" target="_blank" rel="noopener noreferrer">
-              Notebook Lenovo IdeaPad
-            </a>
-          </li>
-        </ul>
-
-        <h2>Entre R$ 2500,00 e R$ 3500,00</h2>
-        <ul>
-          <li>
-            <a href="https://amzn.to/4aCW15A" target="_blank" rel="noopener noreferrer">
-              Notebook Lenovo Ideapad
-            </a>
-          </li>
-          <li>
-            <a href="https://amzn.to/4hb6JTh" target="_blank" rel="noopener noreferrer">
-              Notebook Acer Aspire 3
-            </a>
-          </li>
-          <li>
-            <a href="https://amzn.to/3JL9N9C" target="_blank" rel="noopener noreferrer">
-              Notebook Acer Aspire 5
-            </a>
-          </li>
-        </ul>
-      
-        <h2>Entre R$ 3500,00 e R$ 5000,00</h2>
-        <ul>
-          <li>
-            <a href="https://amzn.to/3WDOUDZ" target="_blank" rel="noopener noreferrer">
-              Notebook Dell Inspiron I15-I1300-M30S
-            </a>
-          </li>
-        </ul>
-
-        <h2>Acima de R$ 5000,00</h2>
-        <ul>
-          <li>
-            <a href="https://amzn.to/3Ebp5F3" target="_blank" rel="noopener noreferrer">
-              Notebook Gamer Dell G15-i1300-A20P (o meu 😊)
-            </a>
-          </li>
-          <li>
-            <a href="https://amzn.to/4aGfNNy" target="_blank" rel="noopener noreferrer">
-              Notebook Gamer Acer Nitro 5
-            </a>
-          </li>
-        </ul>
-      </div>
-  
+    <div className="notebooks-info">  
       <div className='container notebooks-details'>
         <h1>Qual deles escolher?</h1>
         <p>
