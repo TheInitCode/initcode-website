@@ -1,0 +1,126 @@
+.form-language {
+  padding: 2em 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #fff;
+
+  @media (max-width: 1524px) {
+    padding: 5em 5%;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 4em 3em;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2em;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #fff;
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .form-card {
+    background-color: #2a2a2a;
+    border-radius: 15px;
+    padding: 2em;
+    transition: 0.3s ease;
+
+    &:hover {
+      transform: scale(1.01);
+      box-shadow: 0 0 20px rgba(255, 77, 0, 0.2);
+    }
+
+    .question {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 1em;
+      color: #fff;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+    .radio-group {
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+
+      @media (max-width: 768px) {
+        gap: 0.5em;
+      }
+    }
+
+    .radio-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 0.5em;
+
+      label {
+        color: #eee;
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 1em;
+    font-size: 18px;
+    background-color: #FF4D00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #dd4200;
+      transform: scale(1.05);
+    }
+  }
+
+  .result {
+    width: 50%;
+    margin-top: 2em;
+    padding: 2em;
+    background-color: #262626;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #FF4D00;
+    color: #fff;
+
+    strong {
+      color: #FF4D00;
+    }
+  }
+
+  .learn-more {
+    margin-top: 2em;
+    font-size: 18px;
+    color: #FF4D00;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+      color: #dd4200;
+      text-decoration: underline;
+    }
+  }
+}

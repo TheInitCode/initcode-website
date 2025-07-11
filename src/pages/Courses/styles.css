@@ -1,4 +1,4 @@
-.courses{
+.courses {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -10,6 +10,35 @@
         font-size: 48px;
         @media (max-width: 768px) {
           padding-top: 1em;
+        }
+    }
+
+    a.link {
+        display: block;
+        margin: 1em 0;
+        font-size: 20px;
+        background-color: #FF4D00;
+        color: white;
+        padding: 1em;
+        border-radius: 5px;
+        width: fit-content;
+        margin: 1em auto;
+        font-weight: 500;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        border: none;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+            background-color: #e64c00;
+            transform: scale(1.02);
+        }
+        @media (max-width: 768px) {
+            font-size: 16px;
         }
     }
 
